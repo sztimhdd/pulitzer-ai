@@ -1,0 +1,1 @@
+export const API_BASE_URL = 'https://wmilysrsttsc.sealosgzg.site';  // 或者使用环境变量 
