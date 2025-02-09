@@ -20,8 +20,8 @@ class CollabState(Enum):
 @dataclass
 class LLMConfig:
     """Configuration for OpenAI API endpoint"""
-    api_key: str = "sk-tjlmkuzuqihmsfydjsnbkuiygpcfwewvvanbhkwyjbmygpzc"
-    base_url: str = "https://api.siliconflow.cn/v1"
+    api_key: str = "API_KEY"
+    base_url: str = "BASE_URL"
     timeout: int = 30
     max_retries: int = 3
     temperature: float = 0.4
